@@ -4,8 +4,8 @@
 // See `Access registration token section` @ https://firebase.google.com/docs/cloud-messaging/js/client#retrieve-the-current-registration-token
 
 // Scripts for firebase and firebase messaging
-importScripts("https://www.gstatic.com/firebasejs/5.5.0/firebase-app.js");
-importScripts("https://www.gstatic.com/firebasejs/5.5.0/firebase-messaging.js");
+importScripts("https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js");
+importScripts("https://www.gstatic.com/firebasejs/8.7.0/firebase-messaging.js");
 
 // Initialize the Firebase app in the service worker by passing the generated config
 const firebaseConfig = {
