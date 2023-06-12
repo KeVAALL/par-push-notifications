@@ -22,6 +22,32 @@ firebase.initializeApp(firebaseConfig);
 // Retrieve firebase messaging
 const messaging = firebase.messaging();
 
+// Registering Service Worker
+async function subscribeUser() {
+  const serviceWorkerRegistration = await navigator.serviceWorker
+    .register("./sw.js", { scope: "./" })
+    .catch((err) => {
+      return console.log("[Service Worker] Registration Error:", err);
+    });
+  console.log(
+    "[Service Worker] Registered. Scope:",
+    serviceWorkerRegistration.scope
+  );
+
+  await navigator.serviceWorker.ready; // Here's the waiting
+
+  // Registering push
+  const subscription = await serviceWorkerRegistration.pushManager
+    .subscribe({
+      userVisibleOnly: true,
+      applicationServerKey: urlBase64ToUint8Array(publicVapidKey),
+    })
+    .catch((err) => {
+      return console.log("[Web Push] Registration Error:", err);
+    });
+  console.log("[Web Push] Registered");
+}
+
 // Handle incoming messages while the app is not in focus (i.e in the background, hidden behind other tabs, or completely closed).
 messaging.onBackgroundMessage(function(payload) {
   console.log("Received background message ", payload);
