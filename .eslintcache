@@ -1,1 +1,77 @@
-[{"C:\\Users\\keval\\OneDrive\\Desktop\\push-notifications\\src\\index.js":"1","C:\\Users\\keval\\OneDrive\\Desktop\\push-notifications\\src\\App.js":"2","C:\\Users\\keval\\OneDrive\\Desktop\\push-notifications\\src\\components\\Notification.js":"3","C:\\Users\\keval\\OneDrive\\Desktop\\push-notifications\\src\\firebase.js":"4"},{"size":541,"mtime":1686553084805,"results":"5","hashOfConfig":"6"},{"size":218,"mtime":1686566297808,"results":"7","hashOfConfig":"6"},{"size":3192,"mtime":1686566897322,"results":"8","hashOfConfig":"6"},{"size":940,"mtime":1686564756719,"results":"9","hashOfConfig":"6"},{"filePath":"10","messages":"11","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},"1mam2hq",{"filePath":"12","messages":"13","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"14","messages":"15","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"16","messages":"17","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},"C:\\Users\\keval\\OneDrive\\Desktop\\push-notifications\\src\\index.js",[],"C:\\Users\\keval\\OneDrive\\Desktop\\push-notifications\\src\\App.js",[],"C:\\Users\\keval\\OneDrive\\Desktop\\push-notifications\\src\\components\\Notification.js",[],"C:\\Users\\keval\\OneDrive\\Desktop\\push-notifications\\src\\firebase.js",[]]
+[
+  {
+    "C:\\Users\\keval\\OneDrive\\Desktop\\push-notifications\\src\\index.js": "1",
+    "C:\\Users\\keval\\OneDrive\\Desktop\\push-notifications\\src\\App.js": "2",
+    "C:\\Users\\keval\\OneDrive\\Desktop\\push-notifications\\src\\components\\Notification.js": "3",
+    "C:\\Users\\keval\\OneDrive\\Desktop\\push-notifications\\src\\firebase.js": "4"
+  },
+  {
+    "size": 541,
+    "mtime": 1686553084805,
+    "results": "5",
+    "hashOfConfig": "6"
+  },
+  {
+    "size": 218,
+    "mtime": 1686566297808,
+    "results": "7",
+    "hashOfConfig": "6"
+  },
+  {
+    "size": 3192,
+    "mtime": 1686566897322,
+    "results": "8",
+    "hashOfConfig": "6"
+  },
+  {
+    "size": 940,
+    "mtime": 1686564756719,
+    "results": "9",
+    "hashOfConfig": "6"
+  },
+  {
+    "filePath": "10",
+    "messages": "11",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  "1mam2hq",
+  {
+    "filePath": "12",
+    "messages": "13",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "14",
+    "messages": "15",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "16",
+    "messages": "17",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  "C:\\Users\\keval\\OneDrive\\Desktop\\push-notifications\\src\\index.js",
+  [],
+  "C:\\Users\\keval\\OneDrive\\Desktop\\push-notifications\\src\\App.js",
+  [],
+  "C:\\Users\\keval\\OneDrive\\Desktop\\push-notifications\\src\\components\\Notification.js",
+  [],
+  "C:\\Users\\keval\\OneDrive\\Desktop\\push-notifications\\src\\firebase.js",
+  []
+]
