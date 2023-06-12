@@ -34,17 +34,28 @@ async function subscribeUser() {
     serviceWorkerRegistration.scope
   );
 
-  await navigator.serviceWorker.ready; // Here's the waiting
+  // await navigator.serviceWorker.ready;
+  // Here's the waiting
+  navigator.serviceWorker.ready.then((reg) =>
+    reg.pushManager
+      .subscribe({
+        userVisibleOnly: true,
+        applicationServerKey: urlBase64ToUint8Array(publicVapidKey),
+      })
+      .catch((err) => {
+        return console.log("[Web Push] Registration Error:", err);
+      })
+  );
 
   // Registering push
-  const subscription = await serviceWorkerRegistration.pushManager
-    .subscribe({
-      userVisibleOnly: true,
-      applicationServerKey: urlBase64ToUint8Array(publicVapidKey),
-    })
-    .catch((err) => {
-      return console.log("[Web Push] Registration Error:", err);
-    });
+  // const subscription = await serviceWorkerRegistration.pushManager
+  //   .subscribe({
+  //     userVisibleOnly: true,
+  //     applicationServerKey: urlBase64ToUint8Array(publicVapidKey),
+  //   })
+  //   .catch((err) => {
+  //     return console.log("[Web Push] Registration Error:", err);
+  //   });
   console.log("[Web Push] Registered");
 }
 
